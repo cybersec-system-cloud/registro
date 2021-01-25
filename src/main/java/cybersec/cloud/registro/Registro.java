@@ -16,8 +16,8 @@ import javax.ws.rs.core.MediaType;
 @Path("/registro")
 public class Registro {
     
-    private List<String> materie;
-    private List<StudenteConVoti> registro;
+    private final List<String> materie;
+    private final List<StudenteConVoti> registro;
     
     public Registro(List<String> materie) {
         this.materie = materie;
